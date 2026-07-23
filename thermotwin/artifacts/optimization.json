@@ -1,0 +1,1083 @@
+{
+  "baseline": {
+    "excess_air_pct": 24.0,
+    "stack_o2_pct": 4.4063282587148755,
+    "efficiency_pct": 89.40088840601004,
+    "fuel_gjph": 200.23290952885645,
+    "co2_tph": 11.233066224568848,
+    "co_ppm": 0.6445264421055927
+  },
+  "optimized": {
+    "excess_air_pct": 10.000000000000005,
+    "stack_o2_pct": 2.1024351274558666,
+    "efficiency_pct": 91.89411400233999,
+    "fuel_gjph": 194.80028938027706,
+    "co2_tph": 10.928296234233542,
+    "co_ppm": 198.65220833221315
+  },
+  "savings": {
+    "eff_gain_pts": 2.4932255963299497,
+    "fuel_gjph_saved": 5.432620148579389,
+    "fuel_pct_saved": 2.713150481288127,
+    "co2_tph_saved": 0.3047699903353056,
+    "co2_tpy_saved": 2560.0679188165673,
+    "fuel_usd_per_year": 273804.0554884012,
+    "co2_usd_per_year": 102402.71675266269
+  },
+  "assumptions": {
+    "fuel_price_usd_per_gj": 6.0,
+    "co2_price_usd_per_t": 40.0,
+    "hours_per_year": 8400.0,
+    "co_limit_ppm": 200.0
+  },
+  "sweep": [
+    {
+      "excess_air_pct": 4.0,
+      "efficiency_pct": 92.81199831624791,
+      "fuel_gjph": 192.87376982234636,
+      "co_ppm": 2326.909902677073,
+      "stack_o2_pct": 1.005762430113804,
+      "feasible": false
+    },
+    {
+      "excess_air_pct": 4.2,
+      "efficiency_pct": 92.7837431128556,
+      "fuel_gjph": 192.9325051935713,
+      "co_ppm": 2143.6499640424004,
+      "stack_o2_pct": 1.0391752936677368,
+      "feasible": false
+    },
+    {
+      "excess_air_pct": 4.4,
+      "efficiency_pct": 92.75526518617436,
+      "fuel_gjph": 192.99173975805996,
+      "co_ppm": 1974.817593424179,
+      "stack_o2_pct": 1.0731304269838247,
+      "feasible": false
+    },
+    {
+      "excess_air_pct": 4.6000000000000005,
+      "efficiency_pct": 92.7265747017647,
+      "fuel_gjph": 193.0514532384568,
+      "co_ppm": 1819.2783734303364,
+      "stack_o2_pct": 1.1075718636034715,
+      "feasible": false
+    },
+    {
+      "excess_air_pct": 4.800000000000001,
+      "efficiency_pct": 92.69768106898414,
+      "fuel_gjph": 193.11162688825365,
+      "co_ppm": 1675.9868177764743,
+      "stack_o2_pct": 1.1424481303146352,
+      "feasible": false
+    },
+    {
+      "excess_air_pct": 5.000000000000001,
+      "efficiency_pct": 92.668592998843,
+      "fuel_gjph": 193.17224337509367,
+      "co_ppm": 1543.9794441899874,
+      "stack_o2_pct": 1.1777118943262228,
+      "feasible": false
+    },
+    {
+      "excess_air_pct": 5.200000000000001,
+      "efficiency_pct": 92.63931855712902,
+      "fuel_gjph": 193.233286673636,
+      "co_ppm": 1422.3683797748572,
+      "stack_o2_pct": 1.2133196377562163,
+      "feasible": false
+    },
+    {
+      "excess_air_pct": 5.400000000000001,
+      "efficiency_pct": 92.60986521323017,
+      "fuel_gjph": 193.29474196710825,
+      "co_ppm": 1310.3354590229283,
+      "stack_o2_pct": 1.2492313573746232,
+      "feasible": false
+    },
+    {
+      "excess_air_pct": 5.600000000000001,
+      "efficiency_pct": 92.58023988504058,
+      "fuel_gjph": 193.35659555676418,
+      "co_ppm": 1207.1267774603705,
+      "stack_o2_pct": 1.2854102876887021,
+      "feasible": false
+    },
+    {
+      "excess_air_pct": 5.800000000000002,
+      "efficiency_pct": 92.55044898029507,
+      "fuel_gjph": 193.4188347785466,
+      "co_ppm": 1112.0476665509673,
+      "stack_o2_pct": 1.3218226455955273,
+      "feasible": false
+    },
+    {
+      "excess_air_pct": 6.000000000000002,
+      "efficiency_pct": 92.52049843464313,
+      "fuel_gjph": 193.4814479263246,
+      "co_ppm": 1024.4580579471742,
+      "stack_o2_pct": 1.3584373949556172,
+      "feasible": false
+    },
+    {
+      "excess_air_pct": 6.200000000000002,
+      "efficiency_pct": 92.49039374674271,
+      "fuel_gjph": 193.5444241811375,
+      "co_ppm": 943.7682074915688,
+      "stack_o2_pct": 1.3952260295619232,
+      "feasible": false
+    },
+    {
+      "excess_air_pct": 6.400000000000003,
+      "efficiency_pct": 92.46014001062665,
+      "fuel_gjph": 193.6077535459345,
+      "co_ppm": 869.434751532327,
+      "stack_o2_pct": 1.432162373090745,
+      "feasible": false
+    },
+    {
+      "excess_air_pct": 6.600000000000003,
+      "efficiency_pct": 92.4297419455708,
+      "fuel_gjph": 193.67142678534557,
+      "co_ppm": 800.9570701328668,
+      "stack_o2_pct": 1.4692223947261256,
+      "feasible": false
+    },
+    {
+      "excess_air_pct": 6.800000000000003,
+      "efficiency_pct": 92.399203923671,
+      "fuel_gjph": 193.73543537006697,
+      "co_ppm": 737.8739336371513,
+      "stack_o2_pct": 1.5063840392468717,
+      "feasible": false
+    },
+    {
+      "excess_air_pct": 7.0000000000000036,
+      "efficiency_pct": 92.36852999531718,
+      "fuel_gjph": 193.79977142547932,
+      "co_ppm": 679.7604108034051,
+      "stack_o2_pct": 1.5436270704562673,
+      "feasible": false
+    },
+    {
+      "excess_air_pct": 7.200000000000004,
+      "efficiency_pct": 92.3377239127355,
+      "fuel_gjph": 193.86442768415517,
+      "co_ppm": 626.2250183483795,
+      "stack_o2_pct": 1.58093292691897,
+      "feasible": false
+    },
+    {
+      "excess_air_pct": 7.400000000000004,
+      "efficiency_pct": 92.30678915175417,
+      "fuel_gjph": 193.92939744194118,
+      "co_ppm": 576.9070932599222,
+      "stack_o2_pct": 1.618284589048135,
+      "feasible": false
+    },
+    {
+      "excess_air_pct": 7.600000000000004,
+      "efficiency_pct": 92.2757289319347,
+      "fuel_gjph": 193.9946745173295,
+      "co_ppm": 531.4743706420027,
+      "stack_o2_pct": 1.6556664566584742,
+      "feasible": false
+    },
+    {
+      "excess_air_pct": 7.800000000000004,
+      "efficiency_pct": 92.24454623519806,
+      "fuel_gjph": 194.06025321385835,
+      "co_ppm": 489.6207511627999,
+      "stack_o2_pct": 1.6930642361686652,
+      "feasible": false
+    },
+    {
+      "excess_air_pct": 8.000000000000004,
+      "efficiency_pct": 92.2132438230639,
+      "fuel_gjph": 194.12612828530268,
+      "co_ppm": 451.06424338763406,
+      "stack_o2_pct": 1.7304648366989326,
+      "feasible": false
+    },
+    {
+      "excess_air_pct": 8.200000000000005,
+      "efficiency_pct": 92.181824252611,
+      "fuel_gjph": 194.19229490343878,
+      "co_ppm": 415.545067401558,
+      "stack_o2_pct": 1.7678562743677824,
+      "feasible": false
+    },
+    {
+      "excess_air_pct": 8.400000000000004,
+      "efficiency_pct": 92.15028989125776,
+      "fuel_gjph": 194.25874862818264,
+      "co_ppm": 382.82390716643414,
+      "stack_o2_pct": 1.8052275841453014,
+      "feasible": false
+    },
+    {
+      "excess_air_pct": 8.600000000000005,
+      "efficiency_pct": 92.118642930454,
+      "fuel_gjph": 194.32548537991988,
+      "co_ppm": 352.6803000210473,
+      "stack_o2_pct": 1.8425687386703355,
+      "feasible": false
+    },
+    {
+      "excess_air_pct": 8.800000000000004,
+      "efficiency_pct": 92.08688539836656,
+      "fuel_gjph": 194.39250141386069,
+      "co_ppm": 324.9111526239267,
+      "stack_o2_pct": 1.8798705734846173,
+      "feasible": false
+    },
+    {
+      "excess_air_pct": 9.000000000000005,
+      "efficiency_pct": 92.05501917163588,
+      "fuel_gjph": 194.45979329626473,
+      "co_ppm": 299.3293734638085,
+      "stack_o2_pct": 1.9171247181793893,
+      "feasible": false
+    },
+    {
+      "excess_air_pct": 9.200000000000005,
+      "efficiency_pct": 92.02304598627333,
+      "fuel_gjph": 194.52735788239625,
+      "co_ppm": 275.76261282530635,
+      "stack_o2_pct": 1.9543235329894415,
+      "feasible": false
+    },
+    {
+      "excess_air_pct": 9.400000000000006,
+      "efficiency_pct": 91.99096744776429,
+      "fuel_gjph": 194.5951922960786,
+      "co_ppm": 254.05210180265155,
+      "stack_o2_pct": 1.9914600504055673,
+      "feasible": false
+    },
+    {
+      "excess_air_pct": 9.600000000000005,
+      "efficiency_pct": 91.95878504043611,
+      "fuel_gjph": 194.66329391072938,
+      "co_ppm": 234.05158260614687,
+      "stack_o2_pct": 2.028527921409988,
+      "feasible": false
+    },
+    {
+      "excess_air_pct": 9.800000000000006,
+      "efficiency_pct": 91.92650013614613,
+      "fuel_gjph": 194.73166033176545,
+      "co_ppm": 215.62632300821193,
+      "stack_o2_pct": 2.065521365970303,
+      "feasible": false
+    },
+    {
+      "excess_air_pct": 10.000000000000005,
+      "efficiency_pct": 91.89411400233999,
+      "fuel_gjph": 194.80028938027706,
+      "co_ppm": 198.65220833221315,
+      "stack_o2_pct": 2.1024351274558666,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 10.200000000000006,
+      "efficiency_pct": 91.86162780952706,
+      "fuel_gjph": 194.86917907787682,
+      "co_ppm": 183.0149049006194,
+      "stack_o2_pct": 2.1392644306670543,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 10.400000000000006,
+      "efficiency_pct": 91.82904263821578,
+      "fuel_gjph": 194.93832763263805,
+      "co_ppm": 168.6090893336959,
+      "stack_o2_pct": 2.176004943191949,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 10.600000000000007,
+      "efficiency_pct": 91.79635948534872,
+      "fuel_gjph": 195.00773342604194,
+      "co_ppm": 155.33773852739978,
+      "stack_o2_pct": 2.2126527398276257,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 10.800000000000006,
+      "efficiency_pct": 91.76357927027408,
+      "fuel_gjph": 195.07739500086015,
+      "co_ppm": 143.11147554320604,
+      "stack_o2_pct": 2.249204269823689,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 11.000000000000007,
+      "efficiency_pct": 91.73070284028742,
+      "fuel_gjph": 195.14731104990528,
+      "co_ppm": 131.84796701536507,
+      "stack_o2_pct": 2.28565632672489,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 11.200000000000006,
+      "efficiency_pct": 91.69773097577512,
+      "fuel_gjph": 195.21748040558518,
+      "co_ppm": 121.47136802504725,
+      "stack_o2_pct": 2.3220060206072577,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 11.400000000000007,
+      "efficiency_pct": 91.6646643949883,
+      "fuel_gjph": 195.28790203020392,
+      "co_ppm": 111.91181070796183,
+      "stack_o2_pct": 2.358250752518213,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 11.600000000000007,
+      "efficiency_pct": 91.63150375847432,
+      "fuel_gjph": 195.35857500695516,
+      "co_ppm": 103.10493315476253,
+      "stack_o2_pct": 2.394388190946362,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 11.800000000000008,
+      "efficiency_pct": 91.5982496731905,
+      "fuel_gjph": 195.4294985315573,
+      "co_ppm": 94.9914454333792,
+      "stack_o2_pct": 2.4304162501601043,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 12.000000000000007,
+      "efficiency_pct": 91.56490269632305,
+      "fuel_gjph": 195.50067190448559,
+      "co_ppm": 87.51672981093522,
+      "stack_o2_pct": 2.4663330702671318,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 12.200000000000008,
+      "efficiency_pct": 91.53146333883271,
+      "fuel_gjph": 195.5720945237571,
+      "co_ppm": 80.6304724829764,
+      "stack_o2_pct": 2.502136998858494,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 12.400000000000007,
+      "efficiency_pct": 91.49793206874644,
+      "fuel_gjph": 195.64376587822977,
+      "co_ppm": 74.28632432847415,
+      "stack_o2_pct": 2.537826574111638,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 12.600000000000009,
+      "efficiency_pct": 91.46430931421385,
+      "fuel_gjph": 195.7156855413779,
+      "co_ppm": 68.44158840460072,
+      "stack_o2_pct": 2.5734005092368624,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 12.800000000000008,
+      "efficiency_pct": 91.43059546634503,
+      "fuel_gjph": 195.78785316551105,
+      "co_ppm": 63.05693207486443,
+      "stack_o2_pct": 2.608857678160633,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 13.000000000000009,
+      "efficiency_pct": 91.39679088184553,
+      "fuel_gjph": 195.86026847640377,
+      "co_ppm": 58.09612182964957,
+      "stack_o2_pct": 2.6441971023477957,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 13.200000000000008,
+      "efficiency_pct": 91.36289588546329,
+      "fuel_gjph": 195.93293126830736,
+      "co_ppm": 53.52577901116925,
+      "stack_o2_pct": 2.679417938672314,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 13.40000000000001,
+      "efficiency_pct": 91.3289107722605,
+      "fuel_gjph": 196.00584139931627,
+      "co_ppm": 49.31515479537703,
+      "stack_o2_pct": 2.7145194682534663,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 13.600000000000009,
+      "efficiency_pct": 91.29483580972357,
+      "fuel_gjph": 196.07899878706405,
+      "co_ppm": 45.435922913137986,
+      "stack_o2_pct": 2.749501086180859,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 13.80000000000001,
+      "efficiency_pct": 91.26067123972221,
+      "fuel_gjph": 196.15240340472525,
+      "co_ppm": 41.86198871240803,
+      "stack_o2_pct": 2.7843622920578412,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 14.000000000000009,
+      "efficiency_pct": 91.22641728032897,
+      "fuel_gjph": 196.2260552773014,
+      "co_ppm": 38.569313273326834,
+      "stack_o2_pct": 2.8191026812983675,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 14.20000000000001,
+      "efficiency_pct": 91.1920741275086,
+      "fuel_gjph": 196.2999544781717,
+      "co_ppm": 35.53575138946338,
+      "stack_o2_pct": 2.8537219371175095,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 14.40000000000001,
+      "efficiency_pct": 91.15764195668721,
+      "fuel_gjph": 196.37410112588813,
+      "co_ppm": 32.740902322259814,
+      "stack_o2_pct": 2.8882198231606773,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 14.60000000000001,
+      "efficiency_pct": 91.12312092420923,
+      "fuel_gjph": 196.44849538119948,
+      "co_ppm": 30.165972321371004,
+      "stack_o2_pct": 2.9225961767207878,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 14.80000000000001,
+      "efficiency_pct": 91.08851116869056,
+      "fuel_gjph": 196.52313744428648,
+      "co_ppm": 27.793647983448242,
+      "stack_o2_pct": 2.9568509024967735,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 15.00000000000001,
+      "efficiency_pct": 91.0538128122752,
+      "fuel_gjph": 196.59802755219405,
+      "co_ppm": 25.607979594588965,
+      "stack_o2_pct": 2.990983966850469,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 15.20000000000001,
+      "efficiency_pct": 91.01902596180211,
+      "fuel_gjph": 196.67316597644648,
+      "co_ppm": 23.59427366951929,
+      "stack_o2_pct": 3.02499539252232,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 15.400000000000011,
+      "efficiency_pct": 90.98415070988906,
+      "fuel_gjph": 196.74855302083222,
+      "co_ppm": 21.73899396200072,
+      "stack_o2_pct": 3.058885253769509,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 15.60000000000001,
+      "efficiency_pct": 90.94918713593893,
+      "fuel_gjph": 196.82418901934693,
+      "co_ppm": 20.0296702789028,
+      "stack_o2_pct": 3.0926536718929594,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 15.800000000000011,
+      "efficiency_pct": 90.91413530707436,
+      "fuel_gjph": 196.90007433428295,
+      "co_ppm": 18.45481448218619,
+      "stack_o2_pct": 3.126300811122363,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 16.00000000000001,
+      "efficiency_pct": 90.87899527900572,
+      "fuel_gjph": 196.97620935445545,
+      "co_ppm": 17.003843112381027,
+      "stack_o2_pct": 3.1598268748308147,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 16.20000000000001,
+      "efficiency_pct": 90.84376709683711,
+      "fuel_gjph": 197.052594493555,
+      "co_ppm": 15.66700611120559,
+      "stack_o2_pct": 3.1932321020528547,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 16.400000000000013,
+      "efficiency_pct": 90.80845079581489,
+      "fuel_gjph": 197.12923018861815,
+      "co_ppm": 14.435321162485526,
+      "stack_o2_pct": 3.2265167642818766,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 16.600000000000012,
+      "efficiency_pct": 90.77304640202279,
+      "fuel_gjph": 197.20611689860718,
+      "co_ppm": 13.300513208424228,
+      "stack_o2_pct": 3.259681162524685,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 16.80000000000001,
+      "efficiency_pct": 90.73755393302737,
+      "fuel_gjph": 197.2832551030919,
+      "co_ppm": 12.25495873298145,
+      "stack_o2_pct": 3.2927256245928054,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 17.00000000000001,
+      "efficiency_pct": 90.70197339847752,
+      "fuel_gjph": 197.36064530102578,
+      "co_ppm": 11.291634436679395,
+      "stack_o2_pct": 3.3256505026117162,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 17.200000000000014,
+      "efficiency_pct": 90.66630480066105,
+      "fuel_gjph": 197.43828800960995,
+      "co_ppm": 10.40406995642859,
+      "stack_o2_pct": 3.358456170730723,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 17.400000000000013,
+      "efficiency_pct": 90.63054813502166,
+      "fuel_gjph": 197.5161837632388,
+      "co_ppm": 9.586304311517054,
+      "stack_o2_pct": 3.3911430230175394,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 17.600000000000012,
+      "efficiency_pct": 90.59470339063888,
+      "fuel_gjph": 197.5943331125217,
+      "co_ppm": 8.832845782003568,
+      "stack_o2_pct": 3.423711471522847,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 17.80000000000001,
+      "efficiency_pct": 90.55877055067388,
+      "fuel_gjph": 197.6727366233749,
+      "co_ppm": 8.138634948790827,
+      "stack_o2_pct": 3.4561619445014258,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 18.000000000000014,
+      "efficiency_pct": 90.52274959278327,
+      "fuel_gjph": 197.7513948761795,
+      "co_ppm": 7.499010646212776,
+      "stack_o2_pct": 3.4884948847773094,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 18.200000000000014,
+      "efficiency_pct": 90.48664048950351,
+      "fuel_gjph": 197.83030846499958,
+      "co_ppm": 6.909678597520867,
+      "stack_o2_pct": 3.520710748241585,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 18.400000000000013,
+      "efficiency_pct": 90.45044320860777,
+      "fuel_gjph": 197.90947799685785,
+      "co_ppm": 6.366682521711971,
+      "stack_o2_pct": 3.552810002472279,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 18.600000000000012,
+      "efficiency_pct": 90.41415771343725,
+      "fuel_gjph": 197.98890409106332,
+      "co_ppm": 5.866377516844613,
+      "stack_o2_pct": 3.584793125466613,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 18.800000000000015,
+      "efficiency_pct": 90.37778396320893,
+      "fuel_gjph": 198.06858737858803,
+      "co_ppm": 5.4054055405091805,
+      "stack_o2_pct": 3.616660604476689,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 19.000000000000014,
+      "efficiency_pct": 90.34132191330126,
+      "fuel_gjph": 198.14852850148935,
+      "co_ppm": 4.980672822073705,
+      "stack_o2_pct": 3.648412934940411,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 19.200000000000014,
+      "efficiency_pct": 90.30477151551938,
+      "fuel_gjph": 198.22872811237457,
+      "co_ppm": 4.589329054401185,
+      "stack_o2_pct": 3.6800506195000136,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 19.400000000000013,
+      "efficiency_pct": 90.26813271834148,
+      "fuel_gjph": 198.30918687390457,
+      "co_ppm": 4.228748224788631,
+      "stack_o2_pct": 3.711574167101277,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 19.600000000000016,
+      "efficiency_pct": 90.23140546714743,
+      "fuel_gjph": 198.3899054583342,
+      "co_ppm": 3.8965109560405033,
+      "stack_o2_pct": 3.7429840921669695,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 19.800000000000015,
+      "efficiency_pct": 90.19458970443114,
+      "fuel_gjph": 198.4708845470866,
+      "co_ppm": 3.590388238479692,
+      "stack_o2_pct": 3.774280913838625,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 20.000000000000014,
+      "efficiency_pct": 90.15768536999762,
+      "fuel_gjph": 198.552124830359,
+      "co_ppm": 3.3083264434069277,
+      "stack_o2_pct": 3.8054651552812233,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 20.200000000000014,
+      "efficiency_pct": 90.12069240114609,
+      "fuel_gjph": 198.63362700675776,
+      "co_ppm": 3.04843351691736,
+      "stack_o2_pct": 3.836537343045707,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 20.400000000000016,
+      "efficiency_pct": 90.08361073283982,
+      "fuel_gjph": 198.71539178296084,
+      "co_ppm": 2.8089662612229507,
+      "stack_o2_pct": 3.8674980064847997,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 20.600000000000016,
+      "efficiency_pct": 90.04644029786385,
+      "fuel_gjph": 198.79741987340572,
+      "co_ppm": 2.5883186175658413,
+      "stack_o2_pct": 3.8983476772178487,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 20.800000000000015,
+      "efficiency_pct": 90.00918102697156,
+      "fuel_gjph": 198.87971200000032,
+      "co_ppm": 2.385010871916092,
+      "stack_o2_pct": 3.929086888640711,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 21.000000000000014,
+      "efficiency_pct": 89.97183284902046,
+      "fuel_gjph": 198.96226889185675,
+      "co_ppm": 2.197679710780019,
+      "stack_o2_pct": 3.9597161754772157,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 21.200000000000017,
+      "efficiency_pct": 89.93439569109847,
+      "fuel_gjph": 199.0450912850444,
+      "co_ppm": 2.0250690600987182,
+      "stack_o2_pct": 3.990236073368782,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 21.400000000000016,
+      "efficiency_pct": 89.8968694786411,
+      "fuel_gjph": 199.1281799223627,
+      "co_ppm": 1.8660216454314618,
+      "stack_o2_pct": 4.020647118499171,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 21.600000000000016,
+      "efficiency_pct": 89.85925413554013,
+      "fuel_gjph": 199.21153555313114,
+      "co_ppm": 1.7194712167824115,
+      "stack_o2_pct": 4.050949847251586,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 21.800000000000015,
+      "efficiency_pct": 89.82154958424464,
+      "fuel_gjph": 199.29515893299583,
+      "co_ppm": 1.5844353856122964,
+      "stack_o2_pct": 4.081144795895505,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 22.000000000000018,
+      "efficiency_pct": 89.78375574585463,
+      "fuel_gjph": 199.37905082375102,
+      "co_ppm": 1.4600090257792897,
+      "stack_o2_pct": 4.1112325003008605,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 22.200000000000017,
+      "efficiency_pct": 89.74587254020811,
+      "fuel_gjph": 199.46321199317507,
+      "co_ppm": 1.34535819404084,
+      "stack_o2_pct": 4.141213495677417,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 22.400000000000016,
+      "efficiency_pct": 89.7078998859617,
+      "fuel_gjph": 199.54764321487934,
+      "co_ppm": 1.2397145292185665,
+      "stack_o2_pct": 4.171088316337278,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 22.600000000000016,
+      "efficiency_pct": 89.66983770066561,
+      "fuel_gjph": 199.6323452681695,
+      "co_ppm": 1.1423700921568722,
+      "stack_o2_pct": 4.2008574954786795,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 22.80000000000002,
+      "efficiency_pct": 89.63168590083323,
+      "fuel_gjph": 199.717318937918,
+      "co_ppm": 1.0526726120256897,
+      "stack_o2_pct": 4.230521564989388,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 23.000000000000018,
+      "efficiency_pct": 89.59344440200563,
+      "fuel_gjph": 199.8025650144473,
+      "co_ppm": 0.9700211067168553,
+      "stack_o2_pct": 4.260081055268084,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 23.200000000000017,
+      "efficiency_pct": 89.55511311881143,
+      "fuel_gjph": 199.88808429342285,
+      "co_ppm": 0.8938618479848426,
+      "stack_o2_pct": 4.289536495062292,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 23.400000000000016,
+      "efficiency_pct": 89.51669196502246,
+      "fuel_gjph": 199.9738775757553,
+      "co_ppm": 0.8236846441980907,
+      "stack_o2_pct": 4.318888411321572,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 23.60000000000002,
+      "efficiency_pct": 89.47818085360527,
+      "fuel_gjph": 200.05994566751107,
+      "co_ppm": 0.7590194156411709,
+      "stack_o2_pct": 4.348137329064646,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 23.80000000000002,
+      "efficiency_pct": 89.43957969676906,
+      "fuel_gjph": 200.14628937983102,
+      "co_ppm": 0.6994330393068517,
+      "stack_o2_pct": 4.377283771259434,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 24.000000000000018,
+      "efficiency_pct": 89.40088840601004,
+      "fuel_gjph": 200.23290952885645,
+      "co_ppm": 0.6445264421055925,
+      "stack_o2_pct": 4.406328258714878,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 24.200000000000017,
+      "efficiency_pct": 89.36210689215268,
+      "fuel_gjph": 200.3198069356618,
+      "co_ppm": 0.5939319226783929,
+      "stack_o2_pct": 4.435271309983646,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 24.40000000000002,
+      "efficiency_pct": 89.32323506538798,
+      "fuel_gjph": 200.40698242619396,
+      "co_ppm": 0.5473106840831254,
+      "stack_o2_pct": 4.464113441274796,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 24.60000000000002,
+      "efficiency_pct": 89.28427283530883,
+      "fuel_gjph": 200.4944368312173,
+      "co_ppm": 0.5043505605997596,
+      "stack_o2_pct": 4.492855166375607,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 24.80000000000002,
+      "efficiency_pct": 89.24522011094308,
+      "fuel_gjph": 200.58217098626454,
+      "co_ppm": 0.4647639233128045,
+      "stack_o2_pct": 4.521496996581848,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 25.000000000000018,
+      "efficiency_pct": 89.20607680078393,
+      "fuel_gjph": 200.6701857315923,
+      "co_ppm": 0.42828575065686475,
+      "stack_o2_pct": 4.550039440635745,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 25.200000000000017,
+      "efficiency_pct": 89.16684281281837,
+      "fuel_gjph": 200.75848191214192,
+      "co_ppm": 0.3946718505652227,
+      "stack_o2_pct": 4.578483004671072,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 25.400000000000016,
+      "efficiency_pct": 89.12751805455338,
+      "fuel_gjph": 200.84706037750445,
+      "co_ppm": 0.3636972226810505,
+      "stack_o2_pct": 4.606828192164723,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 25.600000000000016,
+      "efficiency_pct": 89.08810243304026,
+      "fuel_gjph": 200.93592198188995,
+      "co_ppm": 0.33515454926083227,
+      "stack_o2_pct": 4.63507550389429,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 25.80000000000002,
+      "efficiency_pct": 89.04859585489736,
+      "fuel_gjph": 201.02506758410055,
+      "co_ppm": 0.30885280490358613,
+      "stack_o2_pct": 4.6632254379010964,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 26.000000000000018,
+      "efficiency_pct": 89.00899822633093,
+      "fuel_gjph": 201.11449804750717,
+      "co_ppm": 0.28461597556303425,
+      "stack_o2_pct": 4.691278489458265,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 26.200000000000017,
+      "efficiency_pct": 88.96930945315457,
+      "fuel_gjph": 201.20421424002956,
+      "co_ppm": 0.26228187839893474,
+      "stack_o2_pct": 4.719235151043409,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 26.400000000000016,
+      "efficiency_pct": 88.92952944080726,
+      "fuel_gjph": 201.29421703411978,
+      "co_ppm": 0.24170107439943758,
+      "stack_o2_pct": 4.747095912315522,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 26.60000000000002,
+      "efficiency_pct": 88.88965809437009,
+      "fuel_gjph": 201.38450730674793,
+      "co_ppm": 0.22273586654287728,
+      "stack_o2_pct": 4.774861260095741,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 26.80000000000002,
+      "efficiency_pct": 88.84969531858171,
+      "fuel_gjph": 201.47508593939148,
+      "co_ppm": 0.20525937678049933,
+      "stack_o2_pct": 4.802531678351656,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 27.000000000000018,
+      "efficiency_pct": 88.80964101785268,
+      "fuel_gjph": 201.56595381802643,
+      "co_ppm": 0.18915469556479766,
+      "stack_o2_pct": 4.8301076481848675,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 27.200000000000017,
+      "efficiency_pct": 88.76949509627883,
+      "fuel_gjph": 201.65711183312115,
+      "co_ppm": 0.1743140983321565,
+      "stack_o2_pct": 4.857589647821499,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 27.40000000000002,
+      "efficiency_pct": 88.72925745765349,
+      "fuel_gjph": 201.7485608796326,
+      "co_ppm": 0.1606383235173136,
+      "stack_o2_pct": 4.884978152605407,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 27.60000000000002,
+      "efficiency_pct": 88.68892800547901,
+      "fuel_gjph": 201.84030185700422,
+      "co_ppm": 0.14803590738839398,
+      "stack_o2_pct": 4.912273634993913,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 27.80000000000002,
+      "efficiency_pct": 88.64850664297731,
+      "fuel_gjph": 201.93233566916615,
+      "co_ppm": 0.1364225712296991,
+      "stack_o2_pct": 4.939476564555747,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 28.000000000000018,
+      "efficiency_pct": 88.60799327309965,
+      "fuel_gjph": 202.02466322453702,
+      "co_ppm": 0.12572065662398893,
+      "stack_o2_pct": 4.966587407971079,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 28.20000000000002,
+      "efficiency_pct": 88.56738779853575,
+      "fuel_gjph": 202.11728543602763,
+      "co_ppm": 0.1158586051652068,
+      "stack_o2_pct": 4.993606629033441,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 28.40000000000002,
+      "efficiency_pct": 88.5266901217222,
+      "fuel_gjph": 202.21020322104587,
+      "co_ppm": 0.10677047914554472,
+      "stack_o2_pct": 5.020534688653351,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 28.60000000000002,
+      "efficiency_pct": 88.4859001448502,
+      "fuel_gjph": 202.3034175015037,
+      "co_ppm": 0.0983955198175192,
+      "stack_o2_pct": 5.04737204486349,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 28.80000000000002,
+      "efficiency_pct": 88.4450177698728,
+      "fuel_gjph": 202.3969292038251,
+      "co_ppm": 0.09067774047803061,
+      "stack_o2_pct": 5.074119152825334,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 29.00000000000002,
+      "efficiency_pct": 88.40404289851156,
+      "fuel_gjph": 202.49073925895524,
+      "co_ppm": 0.08356555148560385,
+      "stack_o2_pct": 5.100776464837025,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 29.20000000000002,
+      "efficiency_pct": 88.36297543226272,
+      "fuel_gjph": 202.58484860237132,
+      "co_ppm": 0.07701141476654437,
+      "stack_o2_pct": 5.1273444303424505,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 29.40000000000002,
+      "efficiency_pct": 88.32181527240286,
+      "fuel_gjph": 202.67925817409426,
+      "co_ppm": 0.07097152549974335,
+      "stack_o2_pct": 5.1538234959413805,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 29.60000000000002,
+      "efficiency_pct": 88.28056231999426,
+      "fuel_gjph": 202.7739689187014,
+      "co_ppm": 0.06540551881196673,
+      "stack_o2_pct": 5.18021410540053,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 29.800000000000022,
+      "efficiency_pct": 88.23921647588972,
+      "fuel_gjph": 202.86898178534062,
+      "co_ppm": 0.060276199526084345,
+      "stack_o2_pct": 5.2065166996655305,
+      "feasible": true
+    },
+    {
+      "excess_air_pct": 30.00000000000002,
+      "efficiency_pct": 88.19777764073706,
+      "fuel_gjph": 202.9642977277449,
+      "co_ppm": 0.05554929311139264,
+      "stack_o2_pct": 5.23273171687365,
+      "feasible": true
+    }
+  ]
+}

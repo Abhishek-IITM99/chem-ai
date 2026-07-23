@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# Trained models (large, regenerable by running twin_pipeline.py)
+models/
+*.joblib
+
+# Generated intermediates
+*.npz
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+thermotwin/latex/main.pdf
+
+# Office temporary lock files
+~$*
+
+# OS
+.DS_Store
+Thumbs.db

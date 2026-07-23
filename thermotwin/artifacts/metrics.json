@@ -1,0 +1,144 @@
+{
+  "cleaning": {
+    "rows_raw": 2880,
+    "rows_removed_sensor_faults": 105,
+    "rows_clean": 2775,
+    "process_fault_rows_kept": 126,
+    "removed_by_type": {
+      "o2_sensor_stuck": 59,
+      "stack_temp_bias": 39,
+      "flow_spike": 7
+    }
+  },
+  "features": [
+    "process_flow_kgph",
+    "inlet_temp_c",
+    "outlet_temp_c",
+    "process_pressure_bar",
+    "excess_air_pct",
+    "fuel_h2_pct",
+    "fuel_lhv_mjkg",
+    "fouling_index",
+    "ambient_temp_c"
+  ],
+  "targets": [
+    "kpi_efficiency_pct",
+    "stack_temp_c",
+    "stack_o2_pct",
+    "kpi_co2_tph",
+    "tube_metal_temp_c",
+    "fuel_flow_kgph"
+  ],
+  "metrics": {
+    "kpi_efficiency_pct": {
+      "r2": 0.9917380638859497,
+      "mae": 0.05155060843551895,
+      "rmse": 0.07176713323875979,
+      "target_mean": 90.95807911537193,
+      "mape_pct": 0.05668106900960411,
+      "importances": {
+        "fouling_index": 0.6740239377668805,
+        "excess_air_pct": 0.24157069693330277,
+        "process_flow_kgph": 0.02183849630897248,
+        "ambient_temp_c": 0.01966425174368559,
+        "fuel_lhv_mjkg": 0.013181017532581003,
+        "fuel_h2_pct": 0.011046901666251621,
+        "outlet_temp_c": 0.01069178795567521,
+        "process_pressure_bar": 0.005754712717492368,
+        "inlet_temp_c": 0.0022281973751582863
+      }
+    },
+    "stack_temp_c": {
+      "r2": 0.9824095076283186,
+      "mae": 1.5527699624704143,
+      "rmse": 1.9725125483584183,
+      "target_mean": 176.02382356482437,
+      "mape_pct": 0.8863443469719595,
+      "importances": {
+        "fouling_index": 0.8200251963859436,
+        "excess_air_pct": 0.09263057675112854,
+        "outlet_temp_c": 0.033244274290200125,
+        "ambient_temp_c": 0.020996424919420578,
+        "process_flow_kgph": 0.011299767884522373,
+        "fuel_lhv_mjkg": 0.006859682952150526,
+        "fuel_h2_pct": 0.006736260124044526,
+        "process_pressure_bar": 0.004969114481941964,
+        "inlet_temp_c": 0.0032387022106476356
+      }
+    },
+    "stack_o2_pct": {
+      "r2": 0.9794145361383253,
+      "mae": 0.04452714357256321,
+      "rmse": 0.05559737650276423,
+      "target_mean": 2.926668248472532,
+      "mape_pct": 1.5529919026183143,
+      "importances": {
+        "excess_air_pct": 0.9885365557497613,
+        "process_flow_kgph": 0.001880115023772912,
+        "ambient_temp_c": 0.00164044507439523,
+        "outlet_temp_c": 0.001582594289757498,
+        "fouling_index": 0.0015761948719904624,
+        "inlet_temp_c": 0.0015367420230255548,
+        "process_pressure_bar": 0.0014804396519680306,
+        "fuel_h2_pct": 0.0008862502306754786,
+        "fuel_lhv_mjkg": 0.0008806630846534782
+      }
+    },
+    "kpi_co2_tph": {
+      "r2": 0.9901212656598954,
+      "mae": 0.05790193444055675,
+      "rmse": 0.07620930924580122,
+      "target_mean": 10.102191790792387,
+      "mape_pct": 0.5776713343320226,
+      "importances": {
+        "process_flow_kgph": 0.8209930515625875,
+        "outlet_temp_c": 0.14316353730121545,
+        "fouling_index": 0.022478041724254324,
+        "excess_air_pct": 0.0037722237850627955,
+        "inlet_temp_c": 0.00304373848499417,
+        "process_pressure_bar": 0.0030387707429190376,
+        "fuel_h2_pct": 0.0011946873830115425,
+        "fuel_lhv_mjkg": 0.0011794831850522713,
+        "ambient_temp_c": 0.0011364658309029269
+      }
+    },
+    "tube_metal_temp_c": {
+      "r2": 0.9670612237694629,
+      "mae": 2.6550461978356465,
+      "rmse": 3.346007626922665,
+      "target_mean": 552.6212306023052,
+      "mape_pct": 0.481618348616455,
+      "importances": {
+        "outlet_temp_c": 0.6650052808624721,
+        "fouling_index": 0.248165978856076,
+        "process_flow_kgph": 0.06967446123573631,
+        "process_pressure_bar": 0.004273437165654821,
+        "inlet_temp_c": 0.004076820969883255,
+        "excess_air_pct": 0.0031415821195748526,
+        "ambient_temp_c": 0.002602105755025225,
+        "fuel_lhv_mjkg": 0.001551409654806063,
+        "fuel_h2_pct": 0.0015089233807713167
+      }
+    },
+    "fuel_flow_kgph": {
+      "r2": 0.9600959907719819,
+      "mae": 47.30385620864854,
+      "rmse": 58.806541101882395,
+      "target_mean": 3915.7818654907496,
+      "mape_pct": 1.208027536459513,
+      "importances": {
+        "process_flow_kgph": 0.8150915012778744,
+        "outlet_temp_c": 0.13118609542730697,
+        "fouling_index": 0.021805907725015065,
+        "excess_air_pct": 0.006704700694203873,
+        "inlet_temp_c": 0.006088697293448353,
+        "process_pressure_bar": 0.004851220426394607,
+        "fuel_h2_pct": 0.004819432684198483,
+        "fuel_lhv_mjkg": 0.0047902103050342535,
+        "ambient_temp_c": 0.00466223416652405
+      }
+    }
+  },
+  "n_train": 2081,
+  "n_test": 694
+}
