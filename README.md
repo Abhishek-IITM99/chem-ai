@@ -59,3 +59,11 @@ git checkout -b your-feature
 # work, commit
 git push -u origin your-feature
 ```
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the full workflow.
+
+## License
+
+Proprietary and confidential. All rights reserved by the trio team. See
+[LICENSE](LICENSE). Access is limited to named collaborators and is subject to the
+co-founder non-disclosure agreement.
